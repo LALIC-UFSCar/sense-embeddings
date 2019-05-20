@@ -12,7 +12,7 @@ Evaluation scripts can be used to measure the representativeness of a sense embe
 Paper can be read:
 
 Trained embeddings models:
-https://drive.google.com/open?id=1_7LCkNP5Jb2yrKsPxPYrvrTWsqpQpHf_
+"https://drive.google.com/open?id=1_7LCkNP5Jb2yrKsPxPYrvrTWsqpQpHf_"
 
 ### Abstract
 
