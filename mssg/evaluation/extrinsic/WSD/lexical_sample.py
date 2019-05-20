@@ -139,10 +139,7 @@ def get_ambiguousword():
         print('Ambiguous word: ', i)
         get_lexicalsample(i)
 
-get_neighbor('acidente')
-get_neighbor('aumento')
-
 #get_lexicalsample('centro')
-#get_ambiguousword()
+get_ambiguousword()
 
 #python lexical_sample.py
