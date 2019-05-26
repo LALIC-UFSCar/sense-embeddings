@@ -69,35 +69,35 @@ python postagging.py <input_folder.txt> <output_folder.txt>
 
 This method is similar to that one developed by [nlx-group](https://github.com/nlx-group/lx-dsemvectors)
 ```
-python evaluate.py <embedding_model.txt> <testset.txt>
+python analogies.py -m <embedding_model.txt> -t <testset.txt> -r
 ```
 #### Brazilian Portuguese testsets
 
 Only syntactic analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogiesBr_syntactic.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r
 ```
 Only semantic analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogiesBr_semantic.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogiesBr_semantic.txt -r
 ```
 All analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogiesBr.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogiesBr.txt -r
 ```
 #### European Portuguese testsets
 
 Only syntactic analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogies_syntactic.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogies_syntactic.txt -r
 ```
 Only semantic analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogies_semantic.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogies_semantic.txt -r
 ```
 All analogies
 ```
-python evaluate.py <embedding_model.txt> analogies/testset/LX-4WAnalogies.txt
+python analogies.py -m <embedding_model.txt> -t datasets/analogies/testset/LX-4WAnalogies.txt -r
 ```
 
 ### Semantic Similarity evaluation
